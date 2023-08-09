@@ -2,7 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  // 之前的
+  // history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(/#/),
+  // 路由表切換到對應頁面的地方
   routes: [
     {
       path: '/',
@@ -10,19 +13,19 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/test',
-      name: 'test',
-      component: ()=> import('../views/test.vue')
+      path: '',
+      name: 'home',
+      component: ()=> import('../views/homePage.vue')
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/CreateCourses',
+      name: 'CreateCourses',
 
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    }
+      component: () => import('../views/CreateCourses.vue')
+    },
   ]
 })
 
