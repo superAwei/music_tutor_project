@@ -35,6 +35,9 @@
 // 8. Add additional custom code here
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "reset";
+@import "utilities";
+@import "custom";
+
 
 * {
     // outline: 1px solid  red;
