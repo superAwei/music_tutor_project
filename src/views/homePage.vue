@@ -73,7 +73,7 @@
         <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-5 mb-md-0">
             <div class="step rounded-circle bg-light shadow position-relative d-flex flex-column  align-items-center justify-content-center">
               <span class="h3 position-absolute top-0 start-50 translate-middle">01</span>
-              <span class="material-symbols-outlined h1">edit_document</span>
+              <span class="material-symbols-outlined fs-1 mb-3 text-primary">edit_document</span>
               <p class="fw-bolder">INFORMATION</p>
               <p class="text-secondary fw-light">填寫資訊</p>
             </div>
@@ -81,7 +81,7 @@
         <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-5 mb-md-0">
             <div class="step rounded-circle bg-light shadow position-relative d-flex flex-column  align-items-center justify-content-center">
               <span class="h3 position-absolute top-0 start-50 translate-middle">02</span>
-              <span class="material-symbols-outlined h1">contract_edit</span>
+              <span class="material-symbols-outlined fs-1 mb-3 text-primary">contract_edit</span>
               <p class="fw-bolder">INTRODUCE</p>
               <p class="text-secondary fw-light">課程介紹</p>
             </div>
@@ -89,7 +89,7 @@
         <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
             <div class="step rounded-circle bg-light shadow position-relative d-flex flex-column  align-items-center justify-content-center">
               <span class="h3 position-absolute top-0 start-50 translate-middle">03</span>
-              <span class="material-symbols-outlined h1">preview</span>
+              <span class="material-symbols-outlined fs-1 mb-3 text-primary">preview</span>
               <p class="fw-bolder">PREVIEW</p>
               <p class="text-secondary fw-light">預覽</p>
             </div>
@@ -97,7 +97,7 @@
         <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
             <div class="step rounded-circle bg-light shadow position-relative d-flex flex-column  align-items-center justify-content-center">
               <span class="h3 position-absolute top-0 start-50 translate-middle">04</span>
-              <span class="material-symbols-outlined h1">task_alt</span>
+              <span class="material-symbols-outlined fs-1 mb-3 text-primary">task_alt</span>
               <p class="fw-bolder">COMPLETE</p>
               <p class="text-secondary fw-light">完成！</p>
             </div>
@@ -117,101 +117,113 @@
                 <div class="card border-0 shadow">
                     <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">零基礎開始學鋼琴</h5>
+                      <h3 class="card-title fs-7">
+                        <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
+                        <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
+                      </h3>
                       <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
-                      <ul class="d-flex ps-0">
+                      <ul class="d-flex ps-0 text-secondary">
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fw-light">timer</span>
-                          120
+                          <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
+                          <p>120</p>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined">map</span>
-                          台北市
+                          <span class="material-symbols-outlined fs-7 me-1">map</span>
+                          <p>線上</p>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined">group</span>
-                          66
+                          <span class="material-symbols-outlined fs-7 me-1">group</span>
+                          <p>66</p>
                         </li>
                       </ul>
                       <h4 class="h4">NT$ 1,200</h4>
                     </div>
                 </div>
               </div>
-    
+
               <div class="col-md-3">
                 <div class="card border-0 shadow">
                     <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">零基礎開始學鋼琴</h5>
+                      <h3 class="card-title fs-7">
+                        <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
+                        <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
+                      </h3>
                       <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
-                      <ul class="d-flex ps-0">
+                      <ul class="d-flex ps-0 text-secondary">
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fw-light">timer</span>
-                          120
+                          <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
+                          <p>120</p>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined">map</span>
-                          台北市
+                          <span class="material-symbols-outlined fs-7 me-1">map</span>
+                          <p>線上</p>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined">group</span>
-                          66
+                          <span class="material-symbols-outlined fs-7 me-1">group</span>
+                          <p>66</p>
                         </li>
                       </ul>
                       <h4 class="h4">NT$ 1,200</h4>
                     </div>
                 </div>
               </div>
-    
+
               <div class="col-md-3">
                 <div class="card border-0 shadow">
                     <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">零基礎開始學鋼琴</h5>
+                      <h3 class="card-title fs-7">
+                        <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
+                        <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
+                      </h3>
                       <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
-                      <ul class="d-flex ps-0">
+                      <ul class="d-flex ps-0 text-secondary">
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fw-light">timer</span>
-                          120
+                          <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
+                          <p>120</p>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined">map</span>
-                          台北市
+                          <span class="material-symbols-outlined fs-7 me-1">map</span>
+                          <p>線上</p>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined">group</span>
-                          66
+                          <span class="material-symbols-outlined fs-7 me-1">group</span>
+                          <p>66</p>
                         </li>
                       </ul>
                       <h4 class="h4">NT$ 1,200</h4>
                     </div>
                 </div>
               </div>
-    
+
               <div class="col-md-3">
                 <div class="card border-0 shadow">
                     <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">零基礎開始學鋼琴</h5>
+                      <h3 class="card-title fs-7">
+                        <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
+                        <span>零基礎開始學鋼琴</span>
+                      </h3>
                       <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
-                      <ul class="d-flex ps-0">
+                      <ul class="d-flex ps-0 text-secondary">
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fw-light">timer</span>
-                          120
+                          <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
+                          <p>120</p>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined">map</span>
-                          台北市
+                          <span class="material-symbols-outlined fs-7 me-1">map</span>
+                          <p>台北市</p>
                         </li>
                         <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined">group</span>
-                          66
+                          <span class="material-symbols-outlined fs-7 me-1">group</span>
+                          <p>66</p>
                         </li>
                       </ul>
                       <h4 class="h4">NT$ 1,200</h4>
                     </div>
                 </div>
-              </div>
+              </div>     
           <a class="col-8 col-md-5 mx-auto mt-6 btn btn-white rounded-pill shadow fw-bolder fs-14 letter-spacing-8 lh-lg py-3">查看更多課程</a>
       </div>
     </div>
@@ -322,6 +334,11 @@
     height: 387px;
     object-fit: cover;
   }
+
+
+    .custom-shadow-reversed {
+      box-shadow: 10px 10px 10px rgb(246, 246, 246); /* 這將在相反方向創建陰影 */
+    }
 </style>
 
 <script>
