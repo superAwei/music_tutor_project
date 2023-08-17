@@ -33,13 +33,14 @@
 // @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "reset";
+
 @import "utilities";
 @import "custom";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "reset";
 
 // 引入  utilities/api.scss 這支檔案
-@import "/node_modules/bootstrap/scss/utilities/api";
+// @import "/node_modules/bootstrap/scss/utilities/api";
 
 * {
     // outline: 1px solid  red;

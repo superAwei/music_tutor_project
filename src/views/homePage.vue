@@ -113,8 +113,10 @@
       <h4 class="letter-spacing-8 h6 mb-5">精選課程</h4>
       <p class="fs-14 fw-light lh-lg mb-7">音樂是靈魂的共鳴，而我們的課程精選優美。踏上專業音樂之旅，探索熱門精選課程，逐步揭開音樂的神秘面紗。這裡，我們致力於將音樂<br>的藝術帶入您的生活，以專業指導和獨特教學方法，激發您的音樂熱情。</p>
       <div class="row">
-              <div class="col-md-3">
-                <div class="card border-0 shadow">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="col-md-3 ">
+                <div class="card border-0 shadow swiper-slide">
                     <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title fs-7">
@@ -140,9 +142,9 @@
                     </div>
                 </div>
               </div>
-
+    
               <div class="col-md-3">
-                <div class="card border-0 shadow">
+                <div class="card border-0 shadow swiper-slide">
                     <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title fs-7">
@@ -168,9 +170,9 @@
                     </div>
                 </div>
               </div>
-
+    
               <div class="col-md-3">
-                <div class="card border-0 shadow">
+                <div class="card border-0 shadow swiper-slide">
                     <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title fs-7">
@@ -196,9 +198,9 @@
                     </div>
                 </div>
               </div>
-
+    
               <div class="col-md-3">
-                <div class="card border-0 shadow">
+                <div class="card border-0 shadow  swiper-slide">
                     <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title fs-7">
@@ -224,6 +226,20 @@
                     </div>
                 </div>
               </div>     
+    
+            </div>
+
+                <!-- 燈箱導航列 -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+
+        </div>
+        
           <a class="col-8 col-md-5 mx-auto mt-6 btn btn-white rounded-pill shadow fw-bolder fs-14 letter-spacing-8 lh-lg py-3">查看更多課程</a>
       </div>
     </div>
@@ -364,10 +380,40 @@
 </style>
 
 <script>
-const swiper = new Swiper('.swiper', {
+// 引用 swiper
+// import Swiper bundle with all modules installed
+import Swiper from 'swiper/bundle';
+// import styles bundle
+import 'swiper/css/bundle';
+
+export default {
+  data() {
+    return {
+      swiper: {},
+    }
+  },
+  mounted() {
+    this.swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
-    loop: true,
+    direction: 'horizontal',
+    // loop: false,
+    slidesPerView: 1,
+    spaceBetween: 40,
+    // 斷點設計
+    breakpoints: { 
+      320: {  //当屏幕宽度大于等于320
+        slidesPerView: 1,
+        spaceBetween: 10
+      },
+      768: {  //当屏幕宽度大于等于768 
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      1280: {  //当屏幕宽度大于等于1280
+        slidesPerView: 4,
+        spaceBetween: 30
+      }
+    },
   
     // If we need pagination
     pagination: {
@@ -385,4 +431,6 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+  }
+}
 </script>

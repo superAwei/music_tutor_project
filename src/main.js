@@ -12,14 +12,6 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 // 這邊要引入 all.scss
 import "./assets/scss/all.scss"
 
-// 引用 swiper
-// import Swiper bundle with all modules installed
-import Swiper from 'swiper/bundle';
-
-// import styles bundle
-import 'swiper/css/bundle';
-
-
 // // Import the functions you need from the SDKs you need
 // import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
