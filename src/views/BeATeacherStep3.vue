@@ -3,7 +3,7 @@
     <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container-fluid justify-content-between">
-        <a class="navbar-brand" href="#">LOGO</a>
+        <a class="navbar-brand" href="">LOGO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -143,6 +143,19 @@
           <p>我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案</p>
         </div>
       </div>
+      <!-- 下一步 -->
+      <div class="row justify-content-center text-center">
+          <div class="col-6 col-md-4">
+            <router-link to="BeATeacherStep2">
+              <a href="javascript:;" role="button" class="w-100 btn btn-white rounded-pill fw-bolder shadow-lg lh-lg py-2 py-md-3">上一步</a>
+            </router-link>
+          </div>
+          <div class="col-6 col-md-4">
+            <router-link to="BeATeacherStep4">
+              <a href="javascript:;" role="button" class="w-100 btn btn-white rounded-pill fw-bolder shadow-lg lh-lg py-2 py-md-3">下一步</a>
+            </router-link>
+          </div>
+        </div>
     </div>
   </div>
 </template>

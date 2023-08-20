@@ -81,6 +81,7 @@
             <input class="form-control" type="file" id="coursePhoto">
           </div>
         </div>
+        <!-- 下一步 -->
         <div class="row justify-content-center text-center">
           <div class="col-6 col-md-4">
             <router-link to="BeATeacherStep1">

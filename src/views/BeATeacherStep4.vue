@@ -26,8 +26,15 @@
         </div>
       </div>
     </nav>
+    <section class="create_courses_bg">
+      <div class="container py-5">
+        <h2 class="fs-1 fw-bolder">COMPLETE</h2>
+        <h2 class="fs-1 fw-bolder mb-4">完成</h2>
+        <p class="fs-6">準備好了!您的課程將準備好在平台上展示。</p>
+      </div>
+    </section>
       <!-- 進度條 -->
-    <div class="container">
+    <div class="container py-5">
       <div class="row justify-content-center">
           <div class="col-9 col-md-9 timeline"></div>
       </div>
@@ -54,11 +61,37 @@
           </div>
       </div>
     </div>
-    <h2 class="text-center">課程介紹</h2>
+    <!-- 填寫資料 -->
+    <section class="container">
+        <!-- 完成 -->
+        <div class="row text-center">
+          <div class="col-12 text-primary py-5">
+            <span class="material-symbols-outlined complete-icon">task_alt</span>
+            <p class="fs-5">老師，開課準備就緒！你的課程將在所有課程頁面隆重登場！</p>
+          </div>
+        </div>
+        <!-- 下一步 -->
+        <div class="row justify-content-center text-center">
+          <div class="col-6 col-md-4">
+            <router-link to="BeATeacherStep3">
+              <a href="javascript:;" role="button" class="w-100 btn btn-white rounded-pill fw-bolder shadow-lg lh-lg py-2 py-md-3">上一步</a>
+            </router-link>
+          </div>
+          <div class="col-6 col-md-4">
+            <router-link to="BeATeacherStep4">
+              <a href="javascript:;" role="button" class="w-100 btn btn-white rounded-pill fw-bolder shadow-lg lh-lg py-2 py-md-3">完成！</a>
+            </router-link>
+          </div>
+        </div>
+      </section>
   </div>
 </template>
 
 <style lang="scss">
+// 開課 banner 圖片
+.create_courses_bg{
+  background-image: url('../assets/images/section-2.jpg');
+}
 /*進度條*/
 .timeline {
   position: relative;
@@ -118,4 +151,11 @@
   }
 }
 
+// 完成
+.complete-icon{
+  font-size: 200px;
+  @media (min-width: 768px) {
+    font-size: 300px;
+  }
+}
 </style>
