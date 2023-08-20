@@ -26,8 +26,15 @@
         </div>
       </div>
     </nav>
+    <section class="create_courses_bg">
+      <div class="container py-5">
+        <h2 class="fs-1 fw-bolder">PREVIEW</h2>
+        <h2 class="fs-1 fw-bolder mb-4">預覽頁面</h2>
+        <p class="fs-6">一探學習體驗，預覽您的課程頁面，確保呈現效果完美。</p>
+      </div>
+    </section>
       <!-- 進度條 -->
-    <div class="container">
+    <div class="container py-5">
       <div class="row justify-content-center">
           <div class="col-9 col-md-9 timeline"></div>
       </div>
@@ -54,12 +61,97 @@
           </div>
       </div>
     </div>
-    <h2 class="text-center">課程介紹</h2>
-    <router-link to="BeATeacherStep4">前往步驟四</router-link>
+    <!-- 填寫資料 -->
+    <div class="container">
+      <div class="row mb-7 align-items-center">
+        <div class="col-12 col-md-7 mb-3 mb-md-0">
+          <img class="w-100 h-75" src="../assets/images/banner.jpg" alt="">
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="d-flex flex-column">
+            <h2>從頭開始學鋼琴</h2>
+              <p class="mb-3 mb-md-5">我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹我是文案介紹</p>
+              <div class="d-flex justify-content-md-end">
+                <a href="javascript:;" class="d-flex border border-primary rounded-pill p-2"><span class="material-symbols-outlined">bookmark</span>
+                  <p>收藏課程</p>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-12 col-md-7 mb-7 order-1 order-md-1">
+          <h3 class="fs-5 mb-4">關於課程</h3>
+          <div class="row">
+            <div class="col-6 mb-4">
+              <div class="d-flex align-items-center">
+                <span class="material-symbols-outlined me-3 fs-1">timer</span>
+                <div>
+                  <h6 class="fs-6">上課時長</h6>
+                  <p class="fs-6 fw-light">120 分鐘</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <span class="material-symbols-outlined w-40 me-3 fs-1">bookmark</span>
+                <div>
+                  <h6 class="fs-6">上課方式</h6>
+                  <p class="fs-6 fw-light">學生家,線上
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <span class="material-symbols-outlined me-3 fs-1">group</span>
+                <div>
+                  <h6 class="fs-6">課程總人數</h6>
+                  <p class="fs-6 fw-light">66 人</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <span class="material-symbols-outlined me-3 fs-1">map</span>
+                <div>
+                  <h6 class="fs-6">上課地點</h6>
+                  <p class="fs-6 fw-light">台北市</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 order-3 order-md-2">
+          <div class="buy_course border p-3 rounded-3">
+            <h2 class="fs-5 border-bottom pb-3">購買課程</h2>
+            <h3 class="py-3">NT$ 1,200</h3>
+            <div class="d-flex">
+              <a href="javascript:;" class="btn btn-primary rounded-pill text-white w-100 me-3">立即購買</a>
+              <a href="javascript:;" class="btn border border-primary rounded-circle text-primary ">
+                <span class="material-symbols-outlined">bookmark</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-7 order-2 order-md-3 mb-5 mb-md-0">
+          <h3 class="fs-5 mb-4">關於講師</h3>
+          <div class="d-flex align-items-center mb-2">
+            <img class="rounded-circle teacher_photo me-3" src="../assets/images/serve1.jpg" alt="">
+            <p>AWEI</p>
+          </div>
+          <p>我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案我是自我介紹文案</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <style lang="scss">
+// 開課 banner 圖片
+.create_courses_bg{
+  background-image: url('../assets/images/section-2.jpg');
+}
 /*進度條*/
 .timeline {
   position: relative;
@@ -119,4 +211,10 @@
   }
 }
 
+// 講師照片
+.teacher_photo{
+  width:50px;
+  height: 50px;
+  object-fit: cover;
+}
 </style>

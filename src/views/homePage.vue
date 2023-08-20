@@ -38,10 +38,10 @@
   <section class="serve">
     <div class="container py-5 ">
       <h2 class="section-title h1 fw-bolder">SERVE</h2>
-      <h4 class="letter-spacing-8 h6 mb-5">我們的服務</h4>
+      <h4 class="letter-spacing-8 fs-6 mb-4 mb-md-5">我們的服務</h4>
       <div class="row align-items-center">
         <div class="col-md-6 mb-3">
-           <h3 class="lh-base mb-4">奏響夢想的旋律。<br>
+           <h3 class="lh-base mb-3 mb-md-4">奏響夢想的旋律。<br>
             從這裡開始。</h3>
             <p class="fs-14 fw-light lh-lg">在尋找音樂之道的路上，樂樂音樂家教媒合平台將您與充滿熱情的音樂老師相結合。<br>無論您是剛起步或已有經驗，我們靈活的課程時間安排讓您自由展現對音樂的想像和熱愛。<br>一同探索音符的世界，實現心中的音樂夢想。<br>在這裡，旋律不僅被演奏，更被細心呵護成成長的足跡。</p>
         </div>
@@ -52,7 +52,7 @@
 
       <div class="row  py-5 flex-row-reverse align-items-center">
         <div class="col-md-6 mb-3">
-           <h3 class="lh-base mb-4">將音符化為人生的篇章。</h3>
+           <h3 class="lh-base mb-3 mb-md-4">將音符化為人生的篇章。</h3>
             <p class="fs-14 fw-light lh-lg">音樂家的才華在樂樂音樂家教媒合平台綻放，歡迎您將空閑時間轉化為珍貴的教學時光。<br>與學生分享您的音樂造詣，同時獲得寶貴的報酬。<br>這是您與學生共同書寫音符、創造人生旋律的地方。<br>在這裡，您不僅成為指導者，更是啟發夢想、播撒希望的音樂使者。</p>
         </div>
         <div class="col-md-6">
@@ -110,136 +110,117 @@
   <section class="course">
     <div class="container py-6">
       <h2 class="section-title h1 fw-bolder">COURSE</h2>
-      <h4 class="letter-spacing-8 h6 mb-5">精選課程</h4>
+      <h4 class="letter-spacing-8 fs-6 mb-4 mb-md-5">精選課程</h4>
       <p class="fs-14 fw-light lh-lg mb-7">音樂是靈魂的共鳴，而我們的課程精選優美。踏上專業音樂之旅，探索熱門精選課程，逐步揭開音樂的神秘面紗。這裡，我們致力於將音樂<br>的藝術帶入您的生活，以專業指導和獨特教學方法，激發您的音樂熱情。</p>
       <div class="row">
-        <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="col-md-3 ">
-                <div class="card border-0 shadow swiper-slide">
-                    <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h3 class="card-title fs-7">
-                        <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
-                        <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
-                      </h3>
-                      <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
-                      <ul class="d-flex ps-0 text-secondary">
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
-                          <p>120</p>
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fs-7 me-1">map</span>
-                          <p>線上</p>
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fs-7 me-1">group</span>
-                          <p>66</p>
-                        </li>
-                      </ul>
-                      <h4 class="h4">NT$ 1,200</h4>
-                    </div>
-                </div>
+            <div class="col-md-3 ">
+              <div class="card border-0 shadow">
+                  <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title fs-7">
+                      <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
+                      <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
+                    </h3>
+                    <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
+                    <ul class="d-flex ps-0 text-secondary">
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
+                        <p>120</p>
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fs-7 me-1">map</span>
+                        <p>線上</p>
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fs-7 me-1">group</span>
+                        <p>66</p>
+                      </li>
+                    </ul>
+                    <h4 class="h4">NT$ 1,200</h4>
+                  </div>
               </div>
-    
-              <div class="col-md-3">
-                <div class="card border-0 shadow swiper-slide">
-                    <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h3 class="card-title fs-7">
-                        <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
-                        <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
-                      </h3>
-                      <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
-                      <ul class="d-flex ps-0 text-secondary">
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
-                          <p>120</p>
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fs-7 me-1">map</span>
-                          <p>線上</p>
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fs-7 me-1">group</span>
-                          <p>66</p>
-                        </li>
-                      </ul>
-                      <h4 class="h4">NT$ 1,200</h4>
-                    </div>
-                </div>
-              </div>
-    
-              <div class="col-md-3">
-                <div class="card border-0 shadow swiper-slide">
-                    <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h3 class="card-title fs-7">
-                        <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
-                        <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
-                      </h3>
-                      <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
-                      <ul class="d-flex ps-0 text-secondary">
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
-                          <p>120</p>
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fs-7 me-1">map</span>
-                          <p>線上</p>
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fs-7 me-1">group</span>
-                          <p>66</p>
-                        </li>
-                      </ul>
-                      <h4 class="h4">NT$ 1,200</h4>
-                    </div>
-                </div>
-              </div>
-    
-              <div class="col-md-3">
-                <div class="card border-0 shadow  swiper-slide">
-                    <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h3 class="card-title fs-7">
-                        <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
-                        <span>零基礎開始學鋼琴</span>
-                      </h3>
-                      <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
-                      <ul class="d-flex ps-0 text-secondary">
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
-                          <p>120</p>
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fs-7 me-1">map</span>
-                          <p>台北市</p>
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <span class="material-symbols-outlined fs-7 me-1">group</span>
-                          <p>66</p>
-                        </li>
-                      </ul>
-                      <h4 class="h4">NT$ 1,200</h4>
-                    </div>
-                </div>
-              </div>     
-    
             </div>
-
-                <!-- 燈箱導航列 -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-
-        </div>
-        
+            <div class="col-md-3">
+              <div class="card border-0 shadow">
+                  <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title fs-7">
+                      <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
+                      <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
+                    </h3>
+                    <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
+                    <ul class="d-flex ps-0 text-secondary">
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
+                        <p>120</p>
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fs-7 me-1">map</span>
+                        <p>線上</p>
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fs-7 me-1">group</span>
+                        <p>66</p>
+                      </li>
+                    </ul>
+                    <h4 class="h4">NT$ 1,200</h4>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0 shadow">
+                  <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title fs-7">
+                      <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
+                      <span>零基礎開始學鋼琴:開啟你的鋼琴天賦</span>
+                    </h3>
+                    <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
+                    <ul class="d-flex ps-0 text-secondary">
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
+                        <p>120</p>
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fs-7 me-1">map</span>
+                        <p>線上</p>
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fs-7 me-1">group</span>
+                        <p>66</p>
+                      </li>
+                    </ul>
+                    <h4 class="h4">NT$ 1,200</h4>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-0 shadow ">
+                  <img src="../assets/images/serve1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title fs-7">
+                      <span class="badge rounded-pill bg-primary me-1">鋼琴</span>
+                      <span>零基礎開始學鋼琴</span>
+                    </h3>
+                    <p class="card-text fw-light text-secondary mb-3">by AWEI</p>
+                    <ul class="d-flex ps-0 text-secondary">
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fw-lighter fs-7 me-1">timer</span>
+                        <p>120</p>
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fs-7 me-1">map</span>
+                        <p>台北市</p>
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <span class="material-symbols-outlined fs-7 me-1">group</span>
+                        <p>66</p>
+                      </li>
+                    </ul>
+                    <h4 class="h4">NT$ 1,200</h4>
+                  </div>
+              </div>
+            </div>           
           <a class="col-8 col-md-5 mx-auto mt-6 btn btn-white rounded-pill shadow fw-bolder fs-14 letter-spacing-8 lh-lg py-3">查看更多課程</a>
       </div>
     </div>
@@ -247,20 +228,33 @@
   <!-- 常見問題 -->
   <section class="faq bg-grey">
     <div class="container py-6">
-      <h2 class="section-title h1 fw-bolder">FAQ</h2>
-      <h4 class="letter-spacing-8 h6 mb-5">常見問題</h4>
-      <ul class="ps-0">
+      
+      <ul class="ps-0 ">
+        <h2 class="section-title h1 fw-bolder">FAQ</h2>
+      <h4 class="letter-spacing-8 fs-6 mb-4 mb-md-5">常見問題</h4>
+        <li class="border-bottom py-4">
+          <h3 class="question fw-bolder fs-7 fs-md-5">Ｑ 這個平台如何確保音樂家教的質量？</h3>
+          <p class="fw-light pt-3 fs-7 fs-md-5">我們精心篩選並核實每位音樂家教的專業背景和教學經驗。我們採用嚴格的審核標準，確保教師具備高水準的音樂技能和教學能力，從而為學生提供優質的學習體驗。</p>
+        </li>
         <li class="border-bottom py-4">
           <h3 class="question fw-bolder fs-7 fs-md-5">Ｑ 我需要擁有昂貴的樂器嗎？</h3>
-          <p class="fw-light pt-3 fs-5 fs-md-1">問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答</p>
+          <p class="fw-light pt-3 fs-7 fs-md-5">不必。我們的音樂家教能夠根據您的需求和預算，提供適合的建議和方案。無論您是初學者還是有經驗的音樂人，我們都會確保您得到適合的指導，而且您可以根據自己的情況選擇是否購買樂器。</p>
         </li>
         <li class="border-bottom py-4">
-          <h3 class="question fw-bolder h5">Ｑ 我需要擁有昂貴的樂器嗎？</h3>
-          <p class="h5 fw-light pt-3">問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答</p>
+          <h3 class="question fw-bolder fs-7 fs-md-5">Ｑ 如何安排教學時間？</h3>
+          <p class="fw-light pt-3 fs-7 fs-md-5">我們的平台提供靈活的教學時間選擇，讓您和音樂家教共同商討最合適的上課時間。您可以在平台上瀏覽教師的時間表，選擇符合您日程的時間段，確保教學時間的便利性和彈性。</p>
         </li>
         <li class="border-bottom py-4">
-          <h3 class="question fw-bolder h5">Ｑ 我需要擁有昂貴的樂器嗎？</h3>
-          <p class="h5 fw-light pt-3">問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答問題解答</p>
+          <h3 class="question fw-bolder fs-7 fs-md-5">Ｑ 我可以隨時取消或改變教學計劃嗎？</h3>
+          <p class="fw-light pt-3 fs-7 fs-md-5">是的，我們理解您的時間可能會有變動。您可以提前與您的音樂家教溝通，根據需要進行教學計劃的調整。請確保您在取消或更改計劃時遵循我們的相關政策。</p>
+        </li>
+        <li class="border-bottom py-4">
+          <h3 class="question fw-bolder fs-7 fs-md-5">Ｑ 是否有免費試教？</h3>
+          <p class="fw-light pt-3 fs-7 fs-md-5">是的，我們的部分音樂家教提供免費試教，讓您有機會評估教學風格和師生配合是否適合。您可以在平台上查找提供免費試教的教師，並預約試教課程。</p>
+        </li>
+        <li class="border-bottom py-4">
+          <h3 class="question fw-bolder fs-7 fs-md-5">Ｑ 我需要具備多少音樂基礎才能開始學習？</h3>
+          <p class="fw-light pt-3 fs-7 fs-md-5">我們歡迎各個程度的學生，無論您是初學者還是有經驗的音樂人。我們的音樂家教將根據您的現有知識和技能，量身定制教學計劃，從基礎教學到高級技巧，都能找到適合您的課程內容。</p>
         </li>
       </ul>
     </div>
@@ -269,25 +263,25 @@
   <section class="partner">
     <div class="container py-6">
       <h2 class="section-title h1 fw-bolder">PARTNER</h2>
-      <h4 class="letter-spacing-8 h6 mb-5">我們的合作夥伴</h4>
+      <h4 class="letter-spacing-8 fs-6 mb-4 mb-md-5">我們的合作夥伴</h4>
       <p class="fs-14 fw-light lh-lg mb-7">與知名品牌攜手合作，為您提供更廣闊的音樂學習視野，豐富您的音樂旅程。</p>
       <div class="row">
-        <div class="col-md-3 d-flex justify-content-center align-items-center mb-6">
+        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-6">
           <img class="brand-img" src="../assets/images/serve1.jpg" alt="">
         </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-center mb-6">
+        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-6">
           <img class="brand-img" src="../assets/images/serve1.jpg" alt="">
         </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-center mb-6">
+        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-6">
           <img class="brand-img" src="../assets/images/serve1.jpg" alt="">
         </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-center mb-6">
+        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-6">
           <img class="brand-img" src="../assets/images/serve1.jpg" alt="">
         </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-center mb-6">
+        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-6">
           <img class="brand-img" src="../assets/images/serve1.jpg" alt="">
         </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-center mb-6">
+        <div class="col-6 col-md-3 d-flex justify-content-center align-items-center mb-6">
           <img class="brand-img" src="../assets/images/serve1.jpg" alt="">
         </div>
       </div>
@@ -301,28 +295,6 @@
   <section class="footer text-center fw-lighter py-4 fs-14">
     ＠ lELEMUSICE TUTOR COPYRIGHT 2023 ING
   </section>
-
-<!-- 測試輪播效果 -->
-<!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
 </template>
   
 <style lang="scss">
@@ -397,7 +369,7 @@ export default {
     // Optional parameters
     direction: 'horizontal',
     // loop: false,
-    slidesPerView: 1,
+    // slidesPerView: 1,
     spaceBetween: 40,
     // 斷點設計
     breakpoints: { 
@@ -406,7 +378,7 @@ export default {
         spaceBetween: 10
       },
       768: {  //当屏幕宽度大于等于768 
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 20
       },
       1280: {  //当屏幕宽度大于等于1280

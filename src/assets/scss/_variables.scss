@@ -298,6 +298,7 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
+//客製化顏色
 $primary:       #ff715f !default; //主題色
 $secondary:     $gray-600 !default;
 $success:       $green !default;
@@ -650,6 +651,7 @@ $h9-font-size:                $font-size-base * 0.5 !default;   //8px
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
+// 客製化文字大小
 $font-sizes: (
   1: $h1-font-size,
   2: $h2-font-size,

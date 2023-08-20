@@ -26,8 +26,15 @@
         </div>
       </div>
     </nav>
+    <section class="create_courses_bg">
+      <div class="container py-5">
+        <h2 class="fs-1 fw-bolder">INTRODUCE</h2>
+        <h2 class="fs-1 fw-bolder mb-4">課程介紹</h2>
+        <p class="fs-6">分享您的音樂願景，簡單介紹您的課程內容，為學生營造期待。</p>
+      </div>
+    </section>
       <!-- 進度條 -->
-    <div class="container">
+    <div class="container py-5">
       <div class="row justify-content-center">
           <div class="col-9 col-md-9 timeline"></div>
       </div>
@@ -54,12 +61,47 @@
           </div>
       </div>
     </div>
-    <h2 class="text-center">課程介紹</h2>
-    <router-link to="BeATeacherStep3">前往步驟三</router-link>
+    <!-- 填寫資料 -->
+    <section class="container">
+        <!-- 課程介紹 -->
+        <div class="row flex-column  align-items-center justify-content-center  mb-3">
+          <div class="col-12 col-md-8 mb-2">
+            <label class="form-label mb-0" for="courseIntro">課程介紹</label>
+          </div>
+          <div class="col-12 col-md-8">
+            <textarea class="form-control" id="courseIntro" rows="6"></textarea>
+          </div>
+        </div>
+        <!-- 上傳課程封面照 -->
+        <div class="row justify-content-center align-items-center mb-3">
+          <div class="col-6 col-md-3">
+            <label class="form-label mb-0" for="coursePhoto">上傳一張課程封面照</label>
+          </div>
+          <div class="col-6 col-md-5">
+            <input class="form-control" type="file" id="coursePhoto">
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-6 col-md-4">
+            <router-link to="BeATeacherStep1">
+              <a href="javascript:;" role="button" class="w-100 btn btn-white rounded-pill fw-bolder shadow-lg lh-lg py-2 py-md-3">上一步</a>
+            </router-link>
+          </div>
+          <div class="col-6 col-md-4">
+            <router-link to="BeATeacherStep3">
+              <a href="javascript:;" role="button" class="w-100 btn btn-white rounded-pill fw-bolder shadow-lg lh-lg py-2 py-md-3">下一步</a>
+            </router-link>
+          </div>
+        </div>
+      </section>
   </div>
 </template>
 
 <style lang="scss">
+// 開課 banner 圖片
+.create_courses_bg{
+  background-image: url('../assets/images/section-2.jpg');
+}
 /*進度條*/
 .timeline {
   position: relative;
