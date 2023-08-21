@@ -506,7 +506,7 @@ $utilities: map-merge(
     ),
     "font-size": (
       rfs: true,
-      responsive: true, //新增文字符合響應式
+      responsive: true, //客製化新增文字符合響應式
       property: font-size,
       class: fs,
       values: $font-sizes

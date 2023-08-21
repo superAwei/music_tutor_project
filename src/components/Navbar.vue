@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid justify-content-between">
       <a class="navbar-brand" href="#">
         <img class="logo" src="../assets/images/LOGO.png" alt="">

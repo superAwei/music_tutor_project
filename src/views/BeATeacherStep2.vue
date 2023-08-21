@@ -1,31 +1,5 @@
 <template>
   <div>
-    <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="container-fluid justify-content-between">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <router-link to="CreateCourses">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">我要開課</a>
-              </li>
-            </router-link>
-            <li class="nav-item">
-              <a class="nav-link" href="#" >所有課程</a>
-            </li>
-            <router-link to="loginsignup">
-              <li class="nav-item">
-                <a class="nav-link" href="#" ><i class="bi bi-box-arrow-in-left"></i>登入</a>
-              </li>
-            </router-link>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <section class="create_courses_bg">
       <div class="container py-5">
         <h2 class="fs-1 fw-bolder">INTRODUCE</h2>

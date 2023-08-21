@@ -1,31 +1,5 @@
 <template>
   <div>
-    <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="container-fluid justify-content-between">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <router-link to="CreateCourses">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">我要開課</a>
-              </li>
-            </router-link>
-            <li class="nav-item">
-              <a class="nav-link" href="#" >所有課程</a>
-            </li>
-            <router-link to="loginsignup">
-              <li class="nav-item">
-                <a class="nav-link" href="#" ><i class="bi bi-box-arrow-in-left"></i>登入</a>
-              </li>
-            </router-link>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <section class="create_courses_bg">
       <div class="container py-5">
         <h2 class="fs-1 fw-bolder">COURSE INFORMATION</h2>
@@ -164,10 +138,13 @@
           </select>
         </div>
       </div>
-      <div class="row justify-content-center">
-          <div class="col-4">
-             <router-link to="BeATeacherStep2">
-                <a href="javascript:;" role="button" class="w-75 btn btn-white rounded-pill fw-bolder shadow-lg lh-lg py-3">下一步</a>
+      <div class="row justify-content-center text-center">
+          <div class="col-6 col-md-4">
+            <!-- <button type="submit" class="btn btn-primary">
+              &emsp;&emsp;下一步&emsp;&emsp;
+            </button> -->
+            <router-link to="BeATeacherStep2">
+              <a href="javascript:;" role="button" class="w-100 btn btn-white rounded-pill fw-bolder shadow-lg lh-lg py-2 py-md-3">下一步</a>
             </router-link>
           </div>
       </div>

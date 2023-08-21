@@ -1,31 +1,5 @@
 <template>
   <div>
-    <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="container-fluid justify-content-between">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <router-link to="CreateCourses">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">我要開課</a>
-              </li>
-            </router-link>
-            <li class="nav-item">
-              <a class="nav-link" href="#" >所有課程</a>
-            </li>
-            <router-link to="loginsignup">
-              <li class="nav-item">
-                <a class="nav-link" href="#" ><i class="bi bi-box-arrow-in-left"></i>登入</a>
-              </li>
-            </router-link>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <section class="create_courses_bg">
       <div class="container py-5">
         <h2 class="fs-1 fw-bolder">COMPLETE</h2>
@@ -67,7 +41,7 @@
         <div class="row text-center">
           <div class="col-12 text-primary py-5">
             <span class="material-symbols-outlined complete-icon">task_alt</span>
-            <p class="fs-5">老師，開課準備就緒！你的課程將在所有課程頁面隆重登場！</p>
+            <p class="fs-6 fs-md-5">老師，開課準備就緒！你的課程將在所有課程頁面隆重登場！</p>
           </div>
         </div>
         <!-- 下一步 -->
@@ -87,7 +61,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 // 開課 banner 圖片
 .create_courses_bg{
   background-image: url('../assets/images/section-2.jpg');
